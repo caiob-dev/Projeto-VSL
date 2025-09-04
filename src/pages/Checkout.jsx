@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { IMaskInput } from "react-imask";
 import { Link, useLocation, useNavigate} from "react-router-dom";
 
@@ -40,6 +40,11 @@ export default function Checkout() {
   const location = useLocation()
   const params = new URLSearchParams(location.search)
   const produto = params.get("produto") || "Produto não especificado"
+
+
+  useEffect(() => {
+    window.scrollTo({top: 0, behavior: "smooth"})
+  }, [])
 
   return (
     <main className="flex flex-col items-center justify-start md:justify-center bg-gray-50 p-6">
@@ -126,7 +131,7 @@ export default function Checkout() {
       </form>
 
        <button
-          type="submit"
+          type="button"
           className="w-40 my-[38.5px] bg-gray-800 text-white py-2 rounded-lg hover:bg-green-600 transition cursor-pointer"
           onClick={inicioNavigate}
           >
