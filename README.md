@@ -13,7 +13,12 @@ Aplicação React (Vite + Tailwind) de uma VSL focada no nicho de nutracêuticos
 - React Router
 - `react-imask` (máscaras de inputs)
 
+ ## Vercel link:
+https://projeto-vsl.vercel.app/
+
 ## ⚙️ Como rodar localmente
 ```bash
 npm install
 npm run dev
+
+https://projeto-vsl.vercel.app/
