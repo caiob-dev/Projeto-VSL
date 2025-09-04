@@ -22,7 +22,7 @@ export default function Produtos() {
             src={detox}
             alt="Detox"
             className="mb-4 object-cover md:w-96"
-            width={250}
+            width={500}
             height={100}
             loading="lazy"
           />
@@ -44,7 +44,7 @@ export default function Produtos() {
             src={colageno}
             alt="Colageno"
             className="mb-4 object-cover md:w-96"
-            width={250}
+            width={500}
             height={100}
             loading="lazy"
           />
@@ -62,7 +62,7 @@ export default function Produtos() {
             src={combo}
             alt="Combo Detox + Colageno"
             className="mb-4 object-cover md:w-96"
-            width={250}
+            width={500}
             height={100}
             loading="lazy"
           />
