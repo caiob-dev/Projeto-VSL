@@ -19,7 +19,7 @@ Aplicação React (Vite + Tailwind) de uma VSL focada no nicho de nutracêuticos
 - React Router: fluxo de funil (Home → Checkout → Obrigado).
 - UTMs: preservadas via URL e localStorage.
 - Componentização: Header, Footer, Produtos, Testemunhas e páginas separadas.
-- Uso InputMask" (ou "inputmask react") é uma biblioteca JavaScript para React, que permite adicionar máscaras a campos de entrada (inputs) para formatar e validar a entrada de dados de forma fácil e interativa.
+- Uso InputMask (ou "inputmask react") é uma biblioteca JavaScript para React, que permite adicionar máscaras a campos de entrada (inputs) para formatar e validar a entrada de dados de forma fácil e interativa.
 - Uso do Lighthouse para verificação de desempenho
 
  ## Vercel link:
